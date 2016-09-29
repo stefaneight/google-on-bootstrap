@@ -17,10 +17,11 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+	<script src="https://use.fontawesome.com/64bed3fc41.js"></script>
   </head>
   <body>
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -34,7 +35,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Gmail</a></li>
             <li><a href="#">Images</a></li>
-            <li><a href="#User">User</a></li>
+            <li><button class="btn btn-primary" style="margin-top:10px">Sign Up</button></li>
           </ul>
         </div>
         <!--/.nav-collapse -->
@@ -47,18 +48,17 @@
       <br/></br>
       <br/></br>  
       <p>
-      <h1 class="text-center text-info">Google-on-Bootstrap</h1>
-      </p>
-      </br>
+	  
+	  <h1 class="text-center"><span class="text-primary">G</span><span class="text-danger">o</span><span class="text-warning">o</span><span class="text-primary">g</span><span class="text-success">l</span><span class="text-danger">e</span>
+	  </h1>
+	  </p>
       <div class="col-lg-6 col-lg-offset-3">
-        <div class="input-group">
-          <input type="text" class="form-control" placeholder="Search for...">
-          <span class="input-group-btn">
-          <button class="btn btn-info" type="button">Voice</button>
-          </span>
-        </div>
-        <!-- /input-group -->
-        </br>
+	   <div class="form-group">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Search for...">
+      <div class="input-group-addon" style="background-color:white"><i class="fa fa-keyboard-o" aria-hidden="true"></i></div>
+    </div>
+  </div>
         <div class="col-lg-6 col-lg-offset-3">
           <button class="btn btn-default" type="submit">Search</button>
           <button class="btn btn-default" type="submit">I am feeling Lucky</button>
@@ -75,25 +75,33 @@
     </br>
     </br>
     </br>
+	</br>
     </br>
     </br>
-    </br>
-    </br>
-
+	</br>
+	</br>
     <footer class="footer">
+	 <nav class="navbar navbar-default">
       <div class="container">
         <ul class="nav navbar-nav">
           <li><a href="#">Advertising</a></li>
           <li><a href="#">Business</a></li>
           <li><a href="#">About</a></li>
         </ul>
+		<ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Settings</a></li>
+		  <li><a href="#">Use Google.com</a></li>
+        </ul>
       </div>
+	  </nav>
     </footer>
     <!-- Bootstrap core JavaScript
       ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="assets/js/jquery.min.js"><\/script>')</script>
+    <script>window.jQuery || document.write('<script src="assets/javascript/jquery.min.js"><\/script>')</script>
     <script src="assets/js/bootstrap.min.js"></script>
   </body>
 </html>
